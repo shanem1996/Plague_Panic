@@ -1,0 +1,45 @@
+extends KinematicBody2D
+
+const PLAYERSPEED = 200
+
+func _process(delta):
+	var velocity = Vector2.ZERO
+	
+	if Input.is_action_pressed("player_down"):
+		velocity.y += 1
+		
+	if Input.is_action_pressed("player_up"):
+		velocity.y -= 1
+	
+	if Input.is_action_pressed("player_left"):
+		velocity.x -= 1
+		
+	if Input.is_action_pressed("player_right"):
+		velocity.x += 1	
+		
+	print(velocity)
+		
+	
+		
+	move_and_slide(velocity.normalized() * PLAYERSPEED)	
+	
+	player_animation(velocity)
+	
+func player_animation(velocity):
+	if velocity.y > 0:
+		$AnimatedSprite.play("Walk_Down")
+		
+		
+	elif velocity.y < 0:
+		$AnimatedSprite.play("Walk_Up")
+		
+	elif velocity.x != 0:
+		$AnimatedSprite.play("Walk_Side")
+		$AnimatedSprite.flip_h = velocity.x < 0
+		
+	else:
+		$AnimatedSprite.play("Idle")
+		
+	if Input.is_action_pressed("player_up") and Input.is_action_pressed("player_right"):
+		$AnimatedSprite.play("Walk_Diagonal_Up")
+		
