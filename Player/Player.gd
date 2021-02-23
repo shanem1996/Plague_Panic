@@ -26,12 +26,25 @@ func _process(delta):
 	player_animation(velocity)
 	
 func player_animation(velocity):
-	if velocity.y > 0:
-		$AnimatedSprite.play("Walk_Down")
+	if velocity.y < 0  and velocity.x > 0:
+		$AnimatedSprite.play("Walk_Diagonal_Up")
 		
+	elif velocity.y < 0  and velocity.x < 0:
+		$AnimatedSprite.play("Walk_Diagonal_Up")
+		$AnimatedSprite.flip_h = true
 		
 	elif velocity.y < 0:
 		$AnimatedSprite.play("Walk_Up")
+		
+	elif velocity.y > 0  and velocity.x > 0:
+		$AnimatedSprite.play("Walk_Diagonal_Down")
+		
+	elif velocity.y > 0  and velocity.x < 0:
+		$AnimatedSprite.play("Walk_Diagonal_Down")
+		$AnimatedSprite.flip_h = true
+		
+	elif velocity.y > 0:
+		$AnimatedSprite.play("Walk_Down")
 		
 	elif velocity.x != 0:
 		$AnimatedSprite.play("Walk_Side")
@@ -40,6 +53,4 @@ func player_animation(velocity):
 	else:
 		$AnimatedSprite.play("Idle")
 		
-	if Input.is_action_pressed("player_up") and Input.is_action_pressed("player_right"):
-		$AnimatedSprite.play("Walk_Diagonal_Up")
 		
