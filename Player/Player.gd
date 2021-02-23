@@ -28,6 +28,7 @@ func _process(delta):
 func player_animation(velocity):
 	if velocity.y < 0  and velocity.x > 0:
 		$AnimatedSprite.play("Walk_Diagonal_Up")
+		$AnimatedSprite.flip_h = false
 		
 	elif velocity.y < 0  and velocity.x < 0:
 		$AnimatedSprite.play("Walk_Diagonal_Up")
@@ -38,6 +39,7 @@ func player_animation(velocity):
 		
 	elif velocity.y > 0  and velocity.x > 0:
 		$AnimatedSprite.play("Walk_Diagonal_Down")
+		$AnimatedSprite.flip_h = false
 		
 	elif velocity.y > 0  and velocity.x < 0:
 		$AnimatedSprite.play("Walk_Diagonal_Down")
