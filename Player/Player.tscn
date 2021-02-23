@@ -9,35 +9,35 @@
 [ext_resource path="res://topdown_shooter/characters/1.png" type="Texture" id=7]
 
 [sub_resource type="AtlasTexture" id=1]
-atlas = ExtResource( 5 )
+atlas = ExtResource( 1 )
 region = Rect2( 0, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=2]
-atlas = ExtResource( 5 )
+atlas = ExtResource( 1 )
 region = Rect2( 20, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=3]
-atlas = ExtResource( 5 )
+atlas = ExtResource( 1 )
 region = Rect2( 40, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=4]
-atlas = ExtResource( 5 )
+atlas = ExtResource( 1 )
 region = Rect2( 60, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=5]
-atlas = ExtResource( 3 )
+atlas = ExtResource( 5 )
 region = Rect2( 0, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=6]
-atlas = ExtResource( 3 )
+atlas = ExtResource( 5 )
 region = Rect2( 20, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=7]
-atlas = ExtResource( 3 )
+atlas = ExtResource( 5 )
 region = Rect2( 40, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=8]
-atlas = ExtResource( 3 )
+atlas = ExtResource( 5 )
 region = Rect2( 60, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=9]
@@ -57,47 +57,47 @@ atlas = ExtResource( 4 )
 region = Rect2( 60, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=13]
-atlas = ExtResource( 1 )
+atlas = ExtResource( 6 )
 region = Rect2( 0, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=14]
-atlas = ExtResource( 1 )
+atlas = ExtResource( 6 )
 region = Rect2( 20, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=15]
-atlas = ExtResource( 1 )
+atlas = ExtResource( 6 )
 region = Rect2( 40, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=16]
-atlas = ExtResource( 1 )
+atlas = ExtResource( 6 )
 region = Rect2( 60, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=17]
-atlas = ExtResource( 6 )
+atlas = ExtResource( 3 )
 region = Rect2( 0, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=18]
-atlas = ExtResource( 6 )
+atlas = ExtResource( 3 )
 region = Rect2( 20, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=19]
-atlas = ExtResource( 6 )
+atlas = ExtResource( 3 )
 region = Rect2( 40, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=20]
-atlas = ExtResource( 6 )
+atlas = ExtResource( 3 )
 region = Rect2( 60, 0, 20, 24 )
 
 [sub_resource type="SpriteFrames" id=21]
 animations = [ {
 "frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ) ],
 "loop": true,
-"name": "Walk_Diagonal_Down",
+"name": "Walk_Down",
 "speed": 5.0
 }, {
 "frames": [ SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ) ],
 "loop": true,
-"name": "Walk_Up",
+"name": "Walk_Diagonal_Down",
 "speed": 5.0
 }, {
 "frames": [ SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 12 ) ],
@@ -107,7 +107,7 @@ animations = [ {
 }, {
 "frames": [ SubResource( 13 ), SubResource( 14 ), SubResource( 15 ), SubResource( 16 ) ],
 "loop": true,
-"name": "Walk_Down",
+"name": "Walk_Diagonal_Up",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 7 ) ],
@@ -117,26 +117,23 @@ animations = [ {
 }, {
 "frames": [ SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ) ],
 "loop": true,
-"name": "Walk_Diagonal_Up",
+"name": "Walk_Up",
 "speed": 5.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=22]
-extents = Vector2( 27.5652, 29.4878 )
+extents = Vector2( 8.0003, 10.5335 )
 
 [node name="Player" type="KinematicBody2D"]
-position = Vector2( 514.001, 319.783 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( 0.315796, -2.08481 )
-scale = Vector2( 3.36951, 2.93542 )
 frames = SubResource( 21 )
 animation = "Idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -0.797607, 0.272522 )
+position = Vector2( -0.0198131, 0.527802 )
 shape = SubResource( 22 )
