@@ -1,6 +1,6 @@
-extends KinematicBody2D
+extends "res://Characters/CharacterTemplate.gd"
 
-const PLAYERSPEED = 200
+
 
 func _process(delta):
 	var velocity = Vector2.ZERO
@@ -21,7 +21,7 @@ func _process(delta):
 		
 	
 		
-	move_and_slide(velocity.normalized() * PLAYERSPEED)	
+	move_and_slide(velocity.normalized() * SPEED)	
 	
 	player_animation(velocity)
 	
@@ -56,3 +56,4 @@ func player_animation(velocity):
 		$AnimatedSprite.play("Idle")
 		
 		
+

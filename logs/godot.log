@@ -1,0 +1,706 @@
+Godot Engine v3.2.3.stable.mono.official - https://godotengine.org
+OpenGL ES 3.0 Renderer: Intel(R) UHD Graphics 620
+ 
+Mono: Log file is: 'C:\Users\shane\AppData\Roaming/Godot/mono/mono_logs/2021_02_24 15.13.18 (53424).txt'
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
+(0, 0)
+**ERROR**: There is no animation with name 'Idle'.
+   At: scene/2d/animated_sprite.cpp:652:set_animation() - Condition "frames->get_animation_names().find(p_animation) == -1" is true.
