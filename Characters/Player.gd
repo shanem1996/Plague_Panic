@@ -19,8 +19,6 @@ func _process(delta):
 		
 	print(velocity)
 		
-	
-		
 	move_and_slide(velocity.normalized() * SPEED)	
 	
 	player_animation(velocity)
