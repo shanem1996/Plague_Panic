@@ -1,12 +1,19 @@
-extends "res://Characters/CharacterTemplate.gd"
+extends KinematicBody2D
+
+#character attributes
+var SPEED = 100
+
+#path finding
+var player = null
+
 
 func _process(delta):
 	var velocity = Vector2.ZERO
 		
-	print(velocity)
+	if player != null:
+		velocity = position.direction_to(player.position) * SPEED
 		
 	move_and_slide(velocity.normalized() * SPEED)	
-	
 	player_animation(velocity)
 	
 func player_animation(velocity):
@@ -38,3 +45,12 @@ func player_animation(velocity):
 		
 	else:
 		$AnimatedSprite.play("Idle")
+
+#path finding
+func _on_Area2D_body_entered(body):
+	if body != self:
+		player = body
+
+
+func _on_Area2D_body_exited(body):
+	player = null
