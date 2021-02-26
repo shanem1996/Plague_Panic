@@ -1,6 +1,6 @@
 extends Node
 
-const ZOMBIE = preload("res://Characters/Zombie1.tscn")
+const ZOMBIE = preload("res://Characters/Enemies/Zombie_1/Zombie1.tscn")
 
 
 func _ready():

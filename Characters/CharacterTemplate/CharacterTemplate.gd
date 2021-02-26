@@ -1,22 +1,11 @@
 extends KinematicBody2D
 
-#character attributes
-var SPEED = 100
+var SPEED = 240
+const MAX_SPEED = 100
+const FRICTION = 0.1
 
-#path finding
-var player = null
-
-
-func _process(delta):
-	var velocity = Vector2.ZERO
-		
-	if player != null:
-		velocity = position.direction_to(player.position) * SPEED
-		
-	move_and_slide(velocity.normalized() * SPEED)	
-	player_animation(velocity)
-	
-func player_animation(velocity):
+#character animation used for most characters based on velocity.
+func character_animation(velocity):
 	if velocity.y < 0  and velocity.x > 0:
 		$AnimatedSprite.play("Walk_Diagonal_Up")
 		$AnimatedSprite.flip_h = false
@@ -45,12 +34,3 @@ func player_animation(velocity):
 		
 	else:
 		$AnimatedSprite.play("Idle")
-
-#path finding
-func _on_Area2D_body_entered(body):
-	if body != self:
-		player = body
-
-
-func _on_Area2D_body_exited(body):
-	player = null
