@@ -1,8 +1,9 @@
 extends KinematicBody2D
 
-var SPEED = 240
+var speed = 240
 const MAX_SPEED = 100
 const FRICTION = 0.1
+var health = 10
 
 #character animation used for most characters based on velocity.
 func character_animation(velocity):
