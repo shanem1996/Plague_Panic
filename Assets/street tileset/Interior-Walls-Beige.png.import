@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Interior-Walls-Beige.png-29de91137270cc6af89fcc4a91c5ef0f.stex"
+path="res://.import/Interior-Walls-Beige.png-b72c980b1b901b9f224933a2a2346faa.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Blade Frogger Assets/Level/Interior-Walls-Beige.png"
-dest_files=[ "res://.import/Interior-Walls-Beige.png-29de91137270cc6af89fcc4a91c5ef0f.stex" ]
+source_file="res://Assets/street tileset/Interior-Walls-Beige.png"
+dest_files=[ "res://.import/Interior-Walls-Beige.png-b72c980b1b901b9f224933a2a2346faa.stex" ]
 
 [params]
 

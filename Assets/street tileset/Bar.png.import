@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Bar.png-4cea85feb2614ca99a319eaef4cd86ca.stex"
+path="res://.import/Bar.png-bddb125e4e11bbfc8d386ed77ee8c6f9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Blade Frogger Assets/Level/Bar.png"
-dest_files=[ "res://.import/Bar.png-4cea85feb2614ca99a319eaef4cd86ca.stex" ]
+source_file="res://Assets/street tileset/Bar.png"
+dest_files=[ "res://.import/Bar.png-bddb125e4e11bbfc8d386ed77ee8c6f9.stex" ]
 
 [params]
 
