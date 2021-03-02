@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Objects.png-dd4bad8a9dd1304aa4d6e9fb5aff10d8.stex"
+path="res://.import/decorative.png-8c71a67209394e529de986a8675855b0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/street tileset/Objects.png"
-dest_files=[ "res://.import/Objects.png-dd4bad8a9dd1304aa4d6e9fb5aff10d8.stex" ]
+source_file="res://Assets/new tileset/decorative.png"
+dest_files=[ "res://.import/decorative.png-8c71a67209394e529de986a8675855b0.stex" ]
 
 [params]
 

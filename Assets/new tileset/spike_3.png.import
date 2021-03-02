@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Objects.png-dd4bad8a9dd1304aa4d6e9fb5aff10d8.stex"
+path="res://.import/spike_3.png-82efd5dbed351ad2d74a11fdf0236a8e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/street tileset/Objects.png"
-dest_files=[ "res://.import/Objects.png-dd4bad8a9dd1304aa4d6e9fb5aff10d8.stex" ]
+source_file="res://Assets/new tileset/spike_3.png"
+dest_files=[ "res://.import/spike_3.png-82efd5dbed351ad2d74a11fdf0236a8e.stex" ]
 
 [params]
 

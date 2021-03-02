@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Objects.png-dd4bad8a9dd1304aa4d6e9fb5aff10d8.stex"
+path="res://.import/torch_2.png-890ae2709bf870576c3061af3f4ce6bc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/street tileset/Objects.png"
-dest_files=[ "res://.import/Objects.png-dd4bad8a9dd1304aa4d6e9fb5aff10d8.stex" ]
+source_file="res://Assets/new tileset/torch_2.png"
+dest_files=[ "res://.import/torch_2.png-890ae2709bf870576c3061af3f4ce6bc.stex" ]
 
 [params]
 
