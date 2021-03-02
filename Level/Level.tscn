@@ -1,7 +1,8 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Level/Level.gd" type="Script" id=1]
 [ext_resource path="res://Characters/Player/Player.tscn" type="PackedScene" id=2]
+<<<<<<< HEAD
 [ext_resource path="res://Assets/Main/torch_3.png" type="Texture" id=3]
 [ext_resource path="res://Assets/Main/torch_4.png" type="Texture" id=4]
 [ext_resource path="res://Assets/Main/torch_2.png" type="Texture" id=5]
@@ -181,10 +182,14 @@ animations = [ {
 2/shape_one_way_margin = 0.0
 2/shapes = [  ]
 2/z_index = 0
+=======
+[ext_resource path="res://Level/Map_1/Map_1.tscn" type="PackedScene" id=3]
+>>>>>>> parent of f7cd9d9 (Level Update)
 
 [node name="Level" type="Node"]
 script = ExtResource( 1 )
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 [node name="Ground" type="TileMap" parent="."]
 position = Vector2( -1, 0 )
@@ -400,6 +405,10 @@ tile_set = SubResource( 5 )
 cell_size = Vector2( 16, 16 )
 format = 1
 tile_data = PoolIntArray( 393231, 1, 3, 393232, 1, 3, 393235, 0, 655374, 393236, 0, 655375, 393237, 0, 655376, 458756, 0, 655376, 458771, 0, 720910, 458772, 0, 720911, 458773, 0, 720912, 524292, 0, 720912, 524303, 1, 6, 524304, 1, 5, 524307, 1, 5, 524308, 1, 6, 983034, 2, 851985, 1048570, 2, 917521, 1048571, 2, 917522, 1114106, 2, 983057, 1179641, 1, 65546, 1179642, 1, 65547, 1179643, 1, 65547, 1179644, 1, 65548, 1179647, 1, 65546, 1114112, 1, 65547, 1114113, 1, 65549, 1114114, 1, 65546 )
+=======
+[node name="Map_1" parent="." instance=ExtResource( 3 )]
+scale = Vector2( 1.56, 1.56 )
+>>>>>>> parent of f7cd9d9 (Level Update)
 
 [node name="ZombieSpawnTimers" type="Node" parent="."]
 
