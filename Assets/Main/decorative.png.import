@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/decorative.png-8c71a67209394e529de986a8675855b0.stex"
+path="res://.import/decorative.png-e085bca82c7d4964b123347e71f4a6e8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/new tileset/decorative.png"
-dest_files=[ "res://.import/decorative.png-8c71a67209394e529de986a8675855b0.stex" ]
+source_file="res://Assets/Main/decorative.png"
+dest_files=[ "res://.import/decorative.png-e085bca82c7d4964b123347e71f4a6e8.stex" ]
 
 [params]
 

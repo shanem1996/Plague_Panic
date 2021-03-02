@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/candleB_04.png-fe48dc175a91f0eeaf399a1deebf5fc0.stex"
+path="res://.import/candleB_04.png-5161f71faba287685d9fa2f5bdb65a5a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/new tileset/candleB_04.png"
-dest_files=[ "res://.import/candleB_04.png-fe48dc175a91f0eeaf399a1deebf5fc0.stex" ]
+source_file="res://Assets/Main/candleB_04.png"
+dest_files=[ "res://.import/candleB_04.png-5161f71faba287685d9fa2f5bdb65a5a.stex" ]
 
 [params]
 

@@ -2,24 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-<<<<<<< HEAD
-path="res://.import/spike_2.png-c074597cec44671e3d8b4218cfa917d8.stex"
-=======
 path="res://.import/spike_2.png-da2cd764adba67494719331a06f4c0d1.stex"
->>>>>>> ccc9dac779623a5d39fdebb5eb9dd39290d4dcd7
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD
-source_file="res://Assets/new tileset/spike_2.png"
-dest_files=[ "res://.import/spike_2.png-c074597cec44671e3d8b4218cfa917d8.stex" ]
-=======
 source_file="res://Assets/Main/spike_2.png"
 dest_files=[ "res://.import/spike_2.png-da2cd764adba67494719331a06f4c0d1.stex" ]
->>>>>>> ccc9dac779623a5d39fdebb5eb9dd39290d4dcd7
 
 [params]
 
