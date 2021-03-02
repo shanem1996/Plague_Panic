@@ -1,0 +1,43 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+<<<<<<< HEAD
+path="res://.import/spike_0.png-97fbe7d0c1486ce672a53c7762a85c8c.stex"
+=======
+path="res://.import/spike_0.png-cf5058c170bc1632274b0f0a477e256f.stex"
+>>>>>>> ccc9dac779623a5d39fdebb5eb9dd39290d4dcd7
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+<<<<<<< HEAD
+source_file="res://Assets/new tileset/spike_0.png"
+dest_files=[ "res://.import/spike_0.png-97fbe7d0c1486ce672a53c7762a85c8c.stex" ]
+=======
+source_file="res://Assets/Main/spike_0.png"
+dest_files=[ "res://.import/spike_0.png-cf5058c170bc1632274b0f0a477e256f.stex" ]
+>>>>>>> ccc9dac779623a5d39fdebb5eb9dd39290d4dcd7
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
