@@ -33,9 +33,15 @@
 0/shapes = [  ]
 0/z_index = 0
 
+<<<<<<< HEAD
 [sub_resource type="TileSet" id=1]
 0/name = "Street.png 0"
 0/texture = ExtResource( 8 )
+=======
+[sub_resource type="TileSet" id=2]
+0/name = "mainlevbuild.png 0"
+0/texture = ExtResource( 7 )
+>>>>>>> 2c6586305d74384a91c2e99f8ab55541569c78d4
 0/tex_offset = Vector2( 0, 0 )
 0/modulate = Color( 1, 1, 1, 1 )
 0/region = Rect2( 0, 0, 128, 256 )
@@ -224,56 +230,88 @@ frame = 3
 playing = true
 
 [node name="AnimatedSprite5" type="AnimatedSprite" parent="Buildings"]
+<<<<<<< HEAD
 position = Vector2( 258.315, 651.658 )
+=======
+position = Vector2( 258.315, 636.408 )
+>>>>>>> 2c6586305d74384a91c2e99f8ab55541569c78d4
 frames = SubResource( 4 )
 animation = "Torch"
 frame = 3
 playing = true
 
 [node name="AnimatedSprite6" type="AnimatedSprite" parent="Buildings"]
+<<<<<<< HEAD
 position = Vector2( 286.246, 651.658 )
+=======
+position = Vector2( 286.246, 636.408 )
+>>>>>>> 2c6586305d74384a91c2e99f8ab55541569c78d4
 frames = SubResource( 4 )
 animation = "Torch"
 frame = 3
 playing = true
 
 [node name="AnimatedSprite7" type="AnimatedSprite" parent="Buildings"]
+<<<<<<< HEAD
 position = Vector2( 258.315, 676.407 )
+=======
+position = Vector2( 258.315, 661.157 )
+>>>>>>> 2c6586305d74384a91c2e99f8ab55541569c78d4
 frames = SubResource( 4 )
 animation = "Torch"
 frame = 3
 playing = true
 
 [node name="AnimatedSprite8" type="AnimatedSprite" parent="Buildings"]
+<<<<<<< HEAD
 position = Vector2( 286.599, 676.407 )
+=======
+position = Vector2( 286.599, 661.157 )
+>>>>>>> 2c6586305d74384a91c2e99f8ab55541569c78d4
 frames = SubResource( 4 )
 animation = "Torch"
 frame = 3
 playing = true
 
 [node name="AnimatedSprite9" type="AnimatedSprite" parent="Buildings"]
+<<<<<<< HEAD
 position = Vector2( 450.525, 651.658 )
+=======
+position = Vector2( 450.525, 636.408 )
+>>>>>>> 2c6586305d74384a91c2e99f8ab55541569c78d4
 frames = SubResource( 4 )
 animation = "Torch"
 frame = 2
 playing = true
 
 [node name="AnimatedSprite10" type="AnimatedSprite" parent="Buildings"]
+<<<<<<< HEAD
 position = Vector2( 478.456, 651.658 )
+=======
+position = Vector2( 478.456, 636.408 )
+>>>>>>> 2c6586305d74384a91c2e99f8ab55541569c78d4
 frames = SubResource( 4 )
 animation = "Torch"
 frame = 2
 playing = true
 
 [node name="AnimatedSprite11" type="AnimatedSprite" parent="Buildings"]
+<<<<<<< HEAD
 position = Vector2( 450.525, 676.407 )
+=======
+position = Vector2( 450.525, 661.157 )
+>>>>>>> 2c6586305d74384a91c2e99f8ab55541569c78d4
 frames = SubResource( 4 )
 animation = "Torch"
 frame = 2
 playing = true
 
 [node name="AnimatedSprite12" type="AnimatedSprite" parent="Buildings"]
+<<<<<<< HEAD
 position = Vector2( 478.809, 676.407 )
+=======
+position = Vector2( 478.809, 661.157 )
+>>>>>>> 2c6586305d74384a91c2e99f8ab55541569c78d4
 frames = SubResource( 4 )
 animation = "Torch"
 frame = 2
@@ -333,9 +371,11 @@ position = Vector2( 174.856, 306.695 )
 
 [node name="Player" parent="YSort" instance=ExtResource( 2 )]
 position = Vector2( 773.255, -90.6247 )
+scale = Vector2( 1.6, 1.6 )
 
 [node name="Camera2D" type="Camera2D" parent="YSort/Player"]
 current = true
+zoom = Vector2( 0.7, 0.7 )
 
 [node name="PlayerStartPos" type="Position2D" parent="."]
 position = Vector2( 772.26, -42.9971 )
