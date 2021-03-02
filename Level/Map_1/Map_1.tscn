@@ -207,7 +207,7 @@
 10/shapes = [  ]
 10/z_index = 0
 
-[node name="Map_1" type="Node"]
+[node name="Map_1" type="Node2D"]
 
 [node name="Ground" type="TileMap" parent="."]
 tile_set = SubResource( 1 )
