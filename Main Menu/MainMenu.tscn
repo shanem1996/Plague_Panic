@@ -20,44 +20,44 @@ __meta__ = {
 
 [node name="Title" type="TextureRect" parent="Menu"]
 margin_right = 784.0
-margin_bottom = 96.0
+margin_bottom = 60.0
 texture = ExtResource( 3 )
 stretch_mode = 4
 
 [node name="CenterRow" type="HBoxContainer" parent="Menu"]
-margin_top = 100.0
+margin_top = 64.0
 margin_right = 784.0
 margin_bottom = 440.0
 size_flags_vertical = 3
 
 [node name="Buttons" type="VBoxContainer" parent="Menu/CenterRow"]
 margin_right = 390.0
-margin_bottom = 340.0
+margin_bottom = 376.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 alignment = 1
 
 [node name="StartGameButton" parent="Menu/CenterRow/Buttons" instance=ExtResource( 2 )]
-margin_top = 108.0
+margin_top = 126.0
 margin_right = 390.0
-margin_bottom = 168.0
+margin_bottom = 186.0
 
 [node name="QuitGameButton" parent="Menu/CenterRow/Buttons" instance=ExtResource( 1 )]
-margin_top = 172.0
+margin_top = 190.0
 margin_right = 390.0
-margin_bottom = 232.0
+margin_bottom = 250.0
 
 [node name="CenterContainer" type="CenterContainer" parent="Menu/CenterRow"]
 margin_left = 394.0
 margin_right = 784.0
-margin_bottom = 340.0
+margin_bottom = 376.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="Character" type="TextureRect" parent="Menu/CenterRow/CenterContainer"]
 margin_left = 87.0
-margin_top = 59.0
+margin_top = 77.0
 margin_right = 303.0
-margin_bottom = 280.0
+margin_bottom = 298.0
 texture = ExtResource( 4 )
 stretch_mode = 4
