@@ -216,7 +216,7 @@ position = Vector2( 834.243, 318.282 )
 position = Vector2( -74.5956, 356.585 )
 
 [node name="PlayerStartPos" type="Position2D" parent="."]
-position = Vector2( 772.26, -42.9971 )
+position = Vector2( 654.401, 310.578 )
 
 [node name="Ground" type="TileMap" parent="."]
 position = Vector2( -1, 0 )
@@ -244,7 +244,7 @@ visible = false
 position = Vector2( 3.40005, 235.316 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 3
+frame = 1
 playing = true
 
 [node name="AnimatedSprite2" type="AnimatedSprite" parent="Buildings"]
@@ -252,7 +252,7 @@ visible = false
 position = Vector2( 31.3311, 235.316 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 3
+frame = 1
 playing = true
 
 [node name="AnimatedSprite3" type="AnimatedSprite" parent="Buildings"]
@@ -260,7 +260,7 @@ visible = false
 position = Vector2( 3.40005, 260.065 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 3
+frame = 1
 playing = true
 
 [node name="AnimatedSprite4" type="AnimatedSprite" parent="Buildings"]
@@ -268,7 +268,7 @@ visible = false
 position = Vector2( 31.6841, 260.065 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 3
+frame = 1
 playing = true
 
 [node name="AnimatedSprite5" type="AnimatedSprite" parent="Buildings"]
@@ -276,7 +276,7 @@ visible = false
 position = Vector2( 258.315, 651.658 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 3
+frame = 1
 playing = true
 
 [node name="AnimatedSprite6" type="AnimatedSprite" parent="Buildings"]
@@ -284,7 +284,7 @@ visible = false
 position = Vector2( 286.246, 651.658 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 3
+frame = 1
 playing = true
 
 [node name="AnimatedSprite7" type="AnimatedSprite" parent="Buildings"]
@@ -292,7 +292,7 @@ visible = false
 position = Vector2( 258.315, 676.407 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 3
+frame = 1
 playing = true
 
 [node name="AnimatedSprite8" type="AnimatedSprite" parent="Buildings"]
@@ -300,7 +300,7 @@ visible = false
 position = Vector2( 286.599, 676.407 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 3
+frame = 1
 playing = true
 
 [node name="AnimatedSprite9" type="AnimatedSprite" parent="Buildings"]
@@ -308,7 +308,6 @@ visible = false
 position = Vector2( 450.525, 651.658 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 2
 playing = true
 
 [node name="AnimatedSprite10" type="AnimatedSprite" parent="Buildings"]
@@ -316,7 +315,6 @@ visible = false
 position = Vector2( 478.456, 651.658 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 2
 playing = true
 
 [node name="AnimatedSprite11" type="AnimatedSprite" parent="Buildings"]
@@ -324,7 +322,6 @@ visible = false
 position = Vector2( 450.525, 676.407 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 2
 playing = true
 
 [node name="AnimatedSprite12" type="AnimatedSprite" parent="Buildings"]
@@ -332,7 +329,6 @@ visible = false
 position = Vector2( 478.809, 676.407 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 2
 playing = true
 
 [node name="YSort" type="YSort" parent="."]
@@ -361,7 +357,6 @@ scale = Vector2( 1.56, 1.56 )
 position = Vector2( 773.255, -90.6247 )
 
 [node name="Camera2D" type="Camera2D" parent="YSort/Player"]
-visible = false
 current = true
 
 [node name="Control" type="Control" parent="YSort/Player"]
