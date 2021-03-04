@@ -74,6 +74,15 @@ player_attack={
  ]
 }
 
+[layer_names]
+
+2d_render/layer_1="Player"
+2d_physics/layer_1="Player"
+2d_render/layer_2="Zombie"
+2d_physics/layer_2="Zombie"
+2d_render/layer_3="Objects"
+2d_physics/layer_3="Objects"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
