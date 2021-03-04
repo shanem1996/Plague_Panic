@@ -1,13 +1,41 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Main Menu/Buttons/QuitGameButton.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Main Menu/Buttons/StartGameButton.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Assets/Main Menu/title.png" type="Texture" id=3]
 [ext_resource path="res://Assets/Main Menu/character.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Player/down_2_player.png" type="Texture" id=5]
+
+[sub_resource type="AtlasTexture" id=1]
+atlas = ExtResource( 5 )
+region = Rect2( 0, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=2]
+atlas = ExtResource( 5 )
+region = Rect2( 20, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=3]
+atlas = ExtResource( 5 )
+region = Rect2( 40, 0, 20, 24 )
+
+[sub_resource type="AtlasTexture" id=4]
+atlas = ExtResource( 5 )
+region = Rect2( 60, 0, 20, 24 )
+
+[sub_resource type="SpriteFrames" id=5]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ) ],
+"loop": true,
+"name": "Walk",
+"speed": 5.0
+} ]
 
 [node name="MainMenu" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Menu" type="VBoxContainer" parent="."]
 margin_left = 120.0
@@ -55,9 +83,17 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="Character" type="TextureRect" parent="Menu/CenterRow/CenterContainer"]
+visible = false
 margin_left = 87.0
 margin_top = 77.0
 margin_right = 303.0
 margin_bottom = 298.0
 texture = ExtResource( 4 )
 stretch_mode = 4
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Menu/CenterRow/CenterContainer"]
+position = Vector2( 191.728, 179.203 )
+scale = Vector2( 13.3549, 13.3549 )
+frames = SubResource( 5 )
+animation = "Walk"
+playing = true
