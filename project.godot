@@ -19,6 +19,10 @@ config/name="Plague Panic"
 run/main_scene="res://Main Menu/MainMenu.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Global="*res://Global.tscn"
+
 [importer_defaults]
 
 texture={

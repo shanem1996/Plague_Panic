@@ -2,17 +2,13 @@ extends Node
 
 const ZOMBIE = preload("res://Characters/Enemies/Zombie_1/Zombie1.tscn")
 
-
 func _ready():
 	$YSort/Player.position = $PlayerStartPos.position
 	
-#	for i in range (20):
-#		var new_zombie = zombie.instance()
-#
-#		new_zombie.global_position.x = rand_range(0,400)
-#		new_zombie.global_position.y = rand_range(0,400)
-#
-#		add_child(new_zombie)
+func _process(delta):
+	var player_pos = $"YSort/Player".position
+	Global.player_pos = player_pos
+	
 
 func zombie_spawn(start_pos):
 	var zombie = ZOMBIE.instance()
