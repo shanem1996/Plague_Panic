@@ -169,84 +169,76 @@ tile_data = PoolIntArray( 458759, 0, 65553, 458760, 0, 65554, 458761, 0, 65554, 
 position = Vector2( 3.40005, 235.316 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 3
 playing = true
 
 [node name="AnimatedSprite2" type="AnimatedSprite" parent="Buildings"]
 position = Vector2( 31.3311, 235.316 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 3
 playing = true
 
 [node name="AnimatedSprite3" type="AnimatedSprite" parent="Buildings"]
 position = Vector2( 3.40005, 260.065 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 3
 playing = true
 
 [node name="AnimatedSprite4" type="AnimatedSprite" parent="Buildings"]
 position = Vector2( 31.6841, 260.065 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 3
 playing = true
 
 [node name="AnimatedSprite5" type="AnimatedSprite" parent="Buildings"]
 position = Vector2( 242.208, 636.408 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 3
 playing = true
 
 [node name="AnimatedSprite6" type="AnimatedSprite" parent="Buildings"]
 position = Vector2( 270.139, 636.408 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 3
 playing = true
 
 [node name="AnimatedSprite7" type="AnimatedSprite" parent="Buildings"]
 position = Vector2( 242.208, 661.157 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 3
 playing = true
 
 [node name="AnimatedSprite8" type="AnimatedSprite" parent="Buildings"]
 position = Vector2( 270.492, 661.157 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 3
 playing = true
 
 [node name="AnimatedSprite9" type="AnimatedSprite" parent="Buildings"]
 position = Vector2( 466.632, 636.408 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 2
+frame = 3
 playing = true
 
 [node name="AnimatedSprite10" type="AnimatedSprite" parent="Buildings"]
 position = Vector2( 494.563, 636.408 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 2
+frame = 3
 playing = true
 
 [node name="AnimatedSprite11" type="AnimatedSprite" parent="Buildings"]
 position = Vector2( 466.632, 661.157 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 2
+frame = 3
 playing = true
 
 [node name="AnimatedSprite12" type="AnimatedSprite" parent="Buildings"]
 position = Vector2( 494.916, 661.157 )
 frames = SubResource( 4 )
 animation = "Torch"
-frame = 2
+frame = 3
 playing = true
 
 [node name="Decorations" type="TileMap" parent="."]
