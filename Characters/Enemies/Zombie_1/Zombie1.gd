@@ -1,16 +1,16 @@
 extends "res://Characters/CharacterTemplate/CharacterTemplate.gd"
 
-#character attributes.
+#Attributes
 var zombieSpeed = 100
 
-#reinitalize parent variables to character attributes.
+#_ready runs once when the scene loads
 func _ready():
 	speed = zombieSpeed
 
 func _process(delta):
 	var velocity = Vector2.ZERO
-		
-	#Enemy Path Finding, check if player var is true (this is set to true when the player collison box enters a zombies) # Sets velocity to the position of the player.
+	
+	#Sets zombie's velocity using direction_to method to player position
 	velocity = position.direction_to(Global.player_pos) * speed
 		
 	move_and_slide(velocity.normalized() * speed)

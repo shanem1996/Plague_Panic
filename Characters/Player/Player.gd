@@ -1,12 +1,16 @@
 extends "res://Characters/CharacterTemplate/CharacterTemplate.gd"
 
+#Boolean for whether the player is dead or not
 var dead = false
 
+#isDead function to check if the player has died
 func isDead(dead):
 	if dead == true:
-		get_tree().change_scene("res://Main Menu/MainMenu.tscn")
+		get_tree().change_scene("res://Main Menu/MainMenu.tscn") #If the player is dead the main menu scene is triggered
 
+#_process fucntion runs for every instance of the game loop
 func _process(delta):
+	#Player movement
 	var velocity = Vector2.ZERO
 	
 	if Input.is_action_pressed("player_down"):
@@ -20,15 +24,16 @@ func _process(delta):
 		
 	if Input.is_action_pressed("player_right"):
 		velocity.x += 1	
-		
-	#print(velocity)
-		
+	
 	move_and_slide(velocity.normalized() * speed)	
-	#Parent method
+	
+	#Character method from CharacterTemplate
 	character_animation(velocity)
 	
+	#idDead function called
 	isDead(dead)
 	
+	#Player health
 	var collision = move_and_collide(velocity * delta)
 	
 	if collision:
