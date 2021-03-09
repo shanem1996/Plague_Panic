@@ -9,7 +9,7 @@ extents = Vector2( 14.75, 19.5825 )
 extents = Vector2( 13, 16.0825 )
 
 [sub_resource type="RectangleShape2D" id=3]
-extents = Vector2( 44.75, 1.83253 )
+extents = Vector2( 16.1561, 1.83253 )
 
 [node name="StaticBody2D" type="StaticBody2D"]
 
@@ -34,5 +34,9 @@ position = Vector2( 28.25, -23.5 )
 shape = SubResource( 2 )
 
 [node name="CollisionShape2D_5" type="CollisionShape2D" parent="."]
-position = Vector2( 0.25, 32 )
+position = Vector2( 0.25, 29.7551 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D_6" type="CollisionShape2D" parent="."]
+position = Vector2( 0.25, -37.727 )
 shape = SubResource( 3 )
