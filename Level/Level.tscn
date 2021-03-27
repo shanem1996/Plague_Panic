@@ -166,7 +166,7 @@ resource_local_to_scene = true
 2/shapes = [  ]
 2/z_index = 0
 
-[sub_resource type="SpriteFrames" id=6]
+[sub_resource type="SpriteFrames" id=5]
 animations = [ {
 "frames": [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 3 ), ExtResource( 4 ) ],
 "loop": true,
@@ -174,7 +174,7 @@ animations = [ {
 "speed": 5.0
 } ]
 
-[sub_resource type="DynamicFont" id=5]
+[sub_resource type="DynamicFont" id=6]
 font_data = ExtResource( 15 )
 
 [sub_resource type="RectangleShape2D" id=7]
@@ -350,82 +350,86 @@ scale = Vector2( 1.56, 1.56 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="YSort"]
 position = Vector2( -12.6018, 235.021 )
-frames = SubResource( 6 )
+frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite2" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 15.3293, 235.021 )
-frames = SubResource( 6 )
+frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite3" type="AnimatedSprite" parent="YSort"]
 position = Vector2( -12.6018, 259.77 )
-frames = SubResource( 6 )
+frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite4" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 15.6823, 259.77 )
-frames = SubResource( 6 )
+frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite5" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 254.825, 651.102 )
-frames = SubResource( 6 )
+frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite6" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 282.756, 651.102 )
-frames = SubResource( 6 )
+frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite7" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 254.825, 675.852 )
-frames = SubResource( 6 )
+frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite8" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 283.109, 675.852 )
-frames = SubResource( 6 )
+frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite9" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 451.104, 651.102 )
-frames = SubResource( 6 )
+frames = SubResource( 5 )
 animation = "Torch"
+frame = 1
 playing = true
 
 [node name="AnimatedSprite10" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 479.035, 651.102 )
-frames = SubResource( 6 )
+frames = SubResource( 5 )
 animation = "Torch"
+frame = 1
 playing = true
 
 [node name="AnimatedSprite11" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 451.104, 675.851 )
-frames = SubResource( 6 )
+frames = SubResource( 5 )
 animation = "Torch"
+frame = 1
 playing = true
 
 [node name="AnimatedSprite12" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 479.388, 675.851 )
-frames = SubResource( 6 )
+frames = SubResource( 5 )
 animation = "Torch"
+frame = 1
 playing = true
 
 [node name="Player" parent="YSort" instance=ExtResource( 2 )]
@@ -452,7 +456,7 @@ margin_left = 3.78403
 margin_top = 1.68179
 margin_right = 126.784
 margin_bottom = 18.6818
-custom_fonts/font = SubResource( 5 )
+custom_fonts/font = SubResource( 6 )
 text = "Round Starting : "
 __meta__ = {
 "_edit_use_anchors_": false
