@@ -1,5 +1,8 @@
 extends "res://Characters/CharacterTemplate/CharacterTemplate.gd"
 
+var bullet = preload("res://Weapons/Bullet/Bullet_1.tscn")
+var bullet_speed = 900
+
 #Boolean for whether the player is dead or not
 var dead = false
 
@@ -30,8 +33,18 @@ func _process(delta):
 	#Character method from CharacterTemplate
 	character_animation(velocity)
 	
-	#idDead function called
+	#isDead function called
 	isDead(dead)
+	
+	#Shooting
+	if Input.is_action_just_pressed("player_attack"):
+		var bullet_instance = bullet.instance()
+		bullet_instance.position = position
+		bullet_instance.rotation_degrees = rotation_degrees
+		bullet_instance.apply_impulse(Vector2(), Vector2(bullet_speed, 0).rotated(rotation))
+		get_tree().get_root().add_child(bullet_instance)
+		
+		
 	
 	#Player health
 	var collision = move_and_collide(velocity * delta)
