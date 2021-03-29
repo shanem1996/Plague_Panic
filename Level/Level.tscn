@@ -307,129 +307,149 @@ tile_data = PoolIntArray( -3014701, 0, 131075, -3014700, 0, 65554, -3014699, 0, 
 [node name="Building1" parent="YSort" instance=ExtResource( 10 )]
 position = Vector2( -46.6319, 210.849 )
 scale = Vector2( 0.76, 0.76 )
+collision_layer = 4
+collision_mask = 15
 
 [node name="Building2" parent="YSort" instance=ExtResource( 14 )]
 position = Vector2( 220.25, 442.06 )
 scale = Vector2( 1.14395, 1.14395 )
+collision_layer = 4
+collision_mask = 15
 
 [node name="StaticBody2D" parent="YSort/Building2" instance=ExtResource( 14 )]
 
 [node name="Building2_2" parent="YSort" instance=ExtResource( 14 )]
 position = Vector2( 515.019, 442.06 )
 scale = Vector2( 1.14395, 1.14395 )
+collision_layer = 4
+collision_mask = 7
 
 [node name="StaticBody2D" parent="YSort/Building2_2" instance=ExtResource( 14 )]
 
 [node name="Building3" parent="YSort" instance=ExtResource( 13 )]
 position = Vector2( 419.039, 199.263 )
 scale = Vector2( 1.24, 1.24 )
+collision_layer = 4
+collision_mask = 15
 
 [node name="ZombieSpawnBuilding" parent="YSort" instance=ExtResource( 16 )]
 position = Vector2( -856.146, -359.602 )
 scale = Vector2( 1.9702, 1.9702 )
+collision_layer = 4
+collision_mask = 15
 
 [node name="ZombieSpawnBuilding2" parent="YSort" instance=ExtResource( 16 )]
 position = Vector2( -647.835, -663.773 )
 scale = Vector2( 1.9702, 1.9702 )
+collision_layer = 4
+collision_mask = 15
 
 [node name="ZombieSpawnBuilding3" parent="YSort" instance=ExtResource( 16 )]
 position = Vector2( -199.918, -424.151 )
 scale = Vector2( 1.9702, 1.9702 )
+collision_layer = 4
+collision_mask = 15
 
 [node name="ZombieSpawnBuilding4" parent="YSort" instance=ExtResource( 16 )]
 position = Vector2( 263.911, -583.026 )
 scale = Vector2( 1.9702, 1.9702 )
+collision_layer = 4
+collision_mask = 15
 
 [node name="Arch" parent="YSort" instance=ExtResource( 11 )]
 position = Vector2( 368, 614 )
 scale = Vector2( 0.36, 0.36 )
+collision_layer = 2147483652
+collision_mask = 15
 
 [node name="Barred Building" parent="YSort" instance=ExtResource( 12 )]
 position = Vector2( 152.039, 197.263 )
 scale = Vector2( 1.56, 1.56 )
+collision_layer = 4
+collision_mask = 15
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="YSort"]
 position = Vector2( -12.6018, 235.021 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 2
+frame = 3
 playing = true
 
 [node name="AnimatedSprite2" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 15.3293, 235.021 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 2
+frame = 3
 playing = true
 
 [node name="AnimatedSprite3" type="AnimatedSprite" parent="YSort"]
 position = Vector2( -12.6018, 259.77 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 2
+frame = 3
 playing = true
 
 [node name="AnimatedSprite4" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 15.6823, 259.77 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 2
+frame = 3
 playing = true
 
 [node name="AnimatedSprite5" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 254.825, 651.102 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 2
+frame = 3
 playing = true
 
 [node name="AnimatedSprite6" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 282.756, 651.102 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 2
+frame = 3
 playing = true
 
 [node name="AnimatedSprite7" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 254.825, 675.852 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 2
+frame = 3
 playing = true
 
 [node name="AnimatedSprite8" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 283.109, 675.852 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 2
+frame = 3
 playing = true
 
 [node name="AnimatedSprite9" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 451.104, 651.102 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite10" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 479.035, 651.102 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite11" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 451.104, 675.851 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite12" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 479.388, 675.851 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="Player" parent="YSort" instance=ExtResource( 2 )]
