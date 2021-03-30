@@ -3,6 +3,7 @@ extends "res://Characters/CharacterTemplate/CharacterTemplate.gd"
 #Bullet
 var bullet = preload("res://Weapons/Bullet/Bullet.tscn")
 var cooldown = false
+var takeDamageCooldown = false
 var fire_rate = 0.4
 
 
@@ -27,10 +28,13 @@ func Fire():
 
 #Player health
 func isPlayerDamaged(collision):
-	if collision:
+	if collision and takeDamageCooldown == false:
 		if "Zombie1" in collision.collider.name:
-			health -= 0.05
+			takeDamageCooldown = true
+			health -= 1
 			print(health)
+			yield(get_tree().create_timer(0.8), "timeout")
+			takeDamageCooldown = false
 	
 	if health <= 0:
 		health = 0
