@@ -372,84 +372,76 @@ collision_mask = 15
 position = Vector2( -12.6018, 235.021 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 3
 playing = true
 
 [node name="AnimatedSprite2" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 15.3293, 235.021 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 3
 playing = true
 
 [node name="AnimatedSprite3" type="AnimatedSprite" parent="YSort"]
 position = Vector2( -12.6018, 259.77 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 3
 playing = true
 
 [node name="AnimatedSprite4" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 15.6823, 259.77 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 3
 playing = true
 
 [node name="AnimatedSprite5" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 254.825, 651.102 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 3
 playing = true
 
 [node name="AnimatedSprite6" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 282.756, 651.102 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 3
 playing = true
 
 [node name="AnimatedSprite7" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 254.825, 675.852 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 3
 playing = true
 
 [node name="AnimatedSprite8" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 283.109, 675.852 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 3
 playing = true
 
 [node name="AnimatedSprite9" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 451.104, 651.102 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 2
+frame = 3
 playing = true
 
 [node name="AnimatedSprite10" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 479.035, 651.102 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 2
+frame = 3
 playing = true
 
 [node name="AnimatedSprite11" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 451.104, 675.851 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 2
+frame = 3
 playing = true
 
 [node name="AnimatedSprite12" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 479.388, 675.851 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 2
+frame = 3
 playing = true
 
 [node name="Player" parent="YSort" instance=ExtResource( 2 )]
@@ -487,6 +479,7 @@ __meta__ = {
 [node name="Bottom Boundary" type="StaticBody2D" parent="Main Boundaries"]
 position = Vector2( 62.1491, 1546.46 )
 collision_layer = 2147483652
+collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Main Boundaries/Bottom Boundary"]
 shape = SubResource( 7 )
@@ -494,6 +487,7 @@ shape = SubResource( 7 )
 [node name="Top Boundary" type="StaticBody2D" parent="Main Boundaries"]
 position = Vector2( 56.773, -777.941 )
 collision_layer = 4
+collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Main Boundaries/Top Boundary"]
 shape = SubResource( 7 )
@@ -501,6 +495,7 @@ shape = SubResource( 7 )
 [node name="Side Boundary" type="StaticBody2D" parent="Main Boundaries"]
 position = Vector2( -1098.95, 334.872 )
 collision_layer = 4
+collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Main Boundaries/Side Boundary"]
 shape = SubResource( 8 )
@@ -508,6 +503,7 @@ shape = SubResource( 8 )
 [node name="Side Boundary 2" type="StaticBody2D" parent="Main Boundaries"]
 position = Vector2( 1272.85, 426.959 )
 collision_layer = 4
+collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Main Boundaries/Side Boundary 2"]
 shape = SubResource( 8 )
@@ -515,12 +511,16 @@ shape = SubResource( 8 )
 [node name="Stone Boundaries" type="Node" parent="."]
 
 [node name="Bottom Stones" type="StaticBody2D" parent="Stone Boundaries"]
+collision_layer = 4
+collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Bottom Stones"]
 position = Vector2( -552.043, -203.471 )
 shape = SubResource( 9 )
 
 [node name="Bottom Stones 2" type="StaticBody2D" parent="Stone Boundaries"]
+collision_layer = 4
+collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Bottom Stones 2"]
 position = Vector2( 80.0093, -267.974 )
@@ -528,6 +528,8 @@ shape = SubResource( 10 )
 
 [node name="Bottom Stones 3" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( 332.649, -332.065 )
+collision_layer = 4
+collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Bottom Stones 3"]
 position = Vector2( -0.157684, 0 )
@@ -535,12 +537,16 @@ shape = SubResource( 11 )
 
 [node name="Side Stones" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( -1028.5, -386.087 )
+collision_layer = 4
+collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Side Stones"]
 shape = SubResource( 12 )
 
 [node name="Side Stones 2" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( -884.524, -682.144 )
+collision_layer = 4
+collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Side Stones 2"]
 position = Vector2( 0, -0.804688 )
@@ -548,47 +554,63 @@ shape = SubResource( 13 )
 
 [node name="Side Stones 3" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( -332.022, -706.977 )
+collision_layer = 4
+collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Side Stones 3"]
 shape = SubResource( 14 )
 
 [node name="Side Stones 4" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( -76.0081, -236.927 )
+collision_layer = 4
+collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Side Stones 4"]
 shape = SubResource( 14 )
 
 [node name="Side Stones 5" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( 499.965, -626.925 )
+collision_layer = 4
+collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Side Stones 5"]
 shape = SubResource( 15 )
 
 [node name="Side Stones 6" type="StaticBody2D" parent="Stone Boundaries"]
+collision_layer = 4
+collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Side Stones 6"]
 shape = SubResource( 16 )
 
 [node name="Side Stones 7" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( 500.031, -405.581 )
+collision_layer = 4
+collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Side Stones 7"]
 shape = SubResource( 17 )
 
 [node name="Top Stones" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( -954.184, -562.958 )
+collision_layer = 4
+collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Top Stones"]
 shape = SubResource( 18 )
 
 [node name="Top Stones 2" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( -610.656, -738.986 )
+collision_layer = 4
+collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Top Stones 2"]
 shape = SubResource( 19 )
 
 [node name="Top Stones 3" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( 112.554, -674.961 )
+collision_layer = 4
+collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Top Stones 3"]
 shape = SubResource( 20 )
