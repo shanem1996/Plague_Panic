@@ -46,35 +46,35 @@ atlas = ExtResource( 7 )
 region = Rect2( 60, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=10]
-atlas = ExtResource( 5 )
+atlas = ExtResource( 6 )
 region = Rect2( 0, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=11]
-atlas = ExtResource( 5 )
+atlas = ExtResource( 6 )
 region = Rect2( 20, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=12]
-atlas = ExtResource( 5 )
+atlas = ExtResource( 6 )
 region = Rect2( 40, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=13]
-atlas = ExtResource( 5 )
+atlas = ExtResource( 6 )
 region = Rect2( 60, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=14]
-atlas = ExtResource( 6 )
+atlas = ExtResource( 5 )
 region = Rect2( 0, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=15]
-atlas = ExtResource( 6 )
+atlas = ExtResource( 5 )
 region = Rect2( 20, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=16]
-atlas = ExtResource( 6 )
+atlas = ExtResource( 5 )
 region = Rect2( 40, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=17]
-atlas = ExtResource( 6 )
+atlas = ExtResource( 5 )
 region = Rect2( 60, 0, 20, 24 )
 
 [sub_resource type="AtlasTexture" id=18]
@@ -112,12 +112,12 @@ animations = [ {
 }, {
 "frames": [ SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ) ],
 "loop": true,
-"name": "Walk_Down",
+"name": "Walk_Diagonal_Down",
 "speed": 5.0
 }, {
 "frames": [ SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ) ],
 "loop": true,
-"name": "Walk_Diagonal_Down",
+"name": "Walk_Down",
 "speed": 5.0
 }, {
 "frames": [ SubResource( 18 ), SubResource( 19 ), SubResource( 20 ), SubResource( 21 ) ],
@@ -131,7 +131,7 @@ animations = [ {
 ] instance=ExtResource( 1 )]
 position = Vector2( 0, 0 )
 scale = Vector2( 2, 2 )
-collision_mask = 2
+collision_mask = 6
 script = ExtResource( 3 )
 
 [node name="AnimatedSprite" parent="." index="0"]

@@ -8,7 +8,8 @@ var dead = false
 func _ready():
 	speed = zombieSpeed
 
-func damage():
+#called in bullet script.
+func takeDamage():
 	health -= 5
 	print("Hit")
 	
