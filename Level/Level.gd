@@ -4,14 +4,14 @@ const ZOMBIE = preload("res://Characters/Enemies/Zombie_1/Zombie1.tscn")
 
 func _ready():
 	newRound()
+	var roundLabel = $"UI/roundLabel"
 	$YSort/Player.position = $PlayerStartPos.position
-	var label = $"YSort/Player/Control/Label"
-	label.visible = false
+	roundLabel.visible = false
 	
 func _process(delta):
+	var roundLabel = $"UI/roundLabel"
 	var player_pos = $"YSort/Player".position
 	Global.player_pos = player_pos
-	var roundLabel = $"YSort/Player/Control/Label"
 	roundLabel.text = "Round Starting : " + str(Global.round_timer)
 	
 	if Global.round_timer <= 3:

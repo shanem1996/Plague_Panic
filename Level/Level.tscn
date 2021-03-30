@@ -1,4 +1,4 @@
-[gd_scene load_steps=37 format=2]
+[gd_scene load_steps=36 format=2]
 
 [ext_resource path="res://Level/Level.gd" type="Script" id=1]
 [ext_resource path="res://Characters/Player/Player.tscn" type="PackedScene" id=2]
@@ -14,7 +14,7 @@
 [ext_resource path="res://Level/BarredBuilding.tscn" type="PackedScene" id=12]
 [ext_resource path="res://Level/Building3.tscn" type="PackedScene" id=13]
 [ext_resource path="res://Level/Building2.tscn" type="PackedScene" id=14]
-[ext_resource path="res://Assets/Fonts/ARCADECLASSIC.TTF" type="DynamicFontData" id=15]
+[ext_resource path="res://Assets/Fonts/game_font_48.tres" type="DynamicFont" id=15]
 [ext_resource path="res://Level/ZombieSpawnBuilding.tscn" type="PackedScene" id=16]
 
 [sub_resource type="TileSet" id=1]
@@ -174,52 +174,61 @@ animations = [ {
 "speed": 5.0
 } ]
 
-[sub_resource type="DynamicFont" id=6]
-font_data = ExtResource( 15 )
-
-[sub_resource type="RectangleShape2D" id=7]
+[sub_resource type="RectangleShape2D" id=6]
 extents = Vector2( 1229.19, 10 )
 
-[sub_resource type="RectangleShape2D" id=8]
+[sub_resource type="RectangleShape2D" id=7]
 extents = Vector2( 10, 1249.68 )
 
-[sub_resource type="RectangleShape2D" id=9]
+[sub_resource type="RectangleShape2D" id=8]
 extents = Vector2( 481.052, 4.42963 )
 
-[sub_resource type="RectangleShape2D" id=10]
+[sub_resource type="RectangleShape2D" id=9]
 extents = Vector2( 79.9739, 3.97937 )
 
-[sub_resource type="RectangleShape2D" id=11]
+[sub_resource type="RectangleShape2D" id=10]
 extents = Vector2( 172.43, 4.03094 )
 
-[sub_resource type="RectangleShape2D" id=12]
+[sub_resource type="RectangleShape2D" id=11]
 extents = Vector2( 4.52325, 179.951 )
 
-[sub_resource type="RectangleShape2D" id=13]
+[sub_resource type="RectangleShape2D" id=12]
 extents = Vector2( 4.55377, 59.0499 )
 
-[sub_resource type="RectangleShape2D" id=14]
+[sub_resource type="RectangleShape2D" id=13]
 extents = Vector2( 5.05533, 35.0292 )
 
-[sub_resource type="RectangleShape2D" id=15]
+[sub_resource type="RectangleShape2D" id=14]
 extents = Vector2( 5.03876, 51.0752 )
 
-[sub_resource type="RectangleShape2D" id=16]
+[sub_resource type="RectangleShape2D" id=15]
 
-[sub_resource type="RectangleShape2D" id=17]
+[sub_resource type="RectangleShape2D" id=16]
 extents = Vector2( 4.96866, 74.4203 )
 
-[sub_resource type="RectangleShape2D" id=18]
+[sub_resource type="RectangleShape2D" id=17]
 extents = Vector2( 74.1843, 3.01483 )
 
-[sub_resource type="RectangleShape2D" id=19]
+[sub_resource type="RectangleShape2D" id=18]
 extents = Vector2( 278.14, 3.01837 )
 
-[sub_resource type="RectangleShape2D" id=20]
+[sub_resource type="RectangleShape2D" id=19]
 extents = Vector2( 384.433, 2.99115 )
 
 [node name="Level" type="Node"]
 script = ExtResource( 1 )
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="roundLabel" type="Label" parent="UI"]
+margin_left = 10.0
+margin_right = 71.0
+margin_bottom = 14.0
+custom_fonts/font = ExtResource( 15 )
+text = "roundLabel"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="ZombieSpawnTimer" type="Node" parent="."]
 
@@ -372,80 +381,84 @@ collision_mask = 15
 position = Vector2( -12.6018, 235.021 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite2" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 15.3293, 235.021 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite3" type="AnimatedSprite" parent="YSort"]
 position = Vector2( -12.6018, 259.77 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite4" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 15.6823, 259.77 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite5" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 254.825, 651.102 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite6" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 282.756, 651.102 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite7" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 254.825, 675.852 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite8" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 283.109, 675.852 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite9" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 451.104, 651.102 )
 frames = SubResource( 5 )
 animation = "Torch"
+frame = 1
 playing = true
 
 [node name="AnimatedSprite10" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 479.035, 651.102 )
 frames = SubResource( 5 )
 animation = "Torch"
+frame = 1
 playing = true
 
 [node name="AnimatedSprite11" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 451.104, 675.851 )
 frames = SubResource( 5 )
 animation = "Torch"
+frame = 1
 playing = true
 
 [node name="AnimatedSprite12" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 479.388, 675.851 )
 frames = SubResource( 5 )
 animation = "Torch"
+frame = 1
 playing = true
 
 [node name="Player" parent="YSort" instance=ExtResource( 2 )]
@@ -453,30 +466,6 @@ position = Vector2( 773.255, -90.6247 )
 
 [node name="Camera2D" type="Camera2D" parent="YSort/Player"]
 current = true
-
-[node name="Control" type="Control" parent="YSort/Player"]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -256.0
-margin_top = -150.0
-margin_right = 256.0
-margin_bottom = 150.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Label" type="Label" parent="YSort/Player/Control"]
-margin_left = 3.78403
-margin_top = 1.68179
-margin_right = 126.784
-margin_bottom = 18.6818
-custom_fonts/font = SubResource( 6 )
-text = "Round Starting : "
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Main Boundaries" type="Node" parent="."]
 
@@ -486,7 +475,7 @@ collision_layer = 2147483652
 collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Main Boundaries/Bottom Boundary"]
-shape = SubResource( 7 )
+shape = SubResource( 6 )
 
 [node name="Top Boundary" type="StaticBody2D" parent="Main Boundaries"]
 position = Vector2( 56.773, -777.941 )
@@ -494,7 +483,7 @@ collision_layer = 4
 collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Main Boundaries/Top Boundary"]
-shape = SubResource( 7 )
+shape = SubResource( 6 )
 
 [node name="Side Boundary" type="StaticBody2D" parent="Main Boundaries"]
 position = Vector2( -1098.95, 334.872 )
@@ -502,7 +491,7 @@ collision_layer = 4
 collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Main Boundaries/Side Boundary"]
-shape = SubResource( 8 )
+shape = SubResource( 7 )
 
 [node name="Side Boundary 2" type="StaticBody2D" parent="Main Boundaries"]
 position = Vector2( 1272.85, 426.959 )
@@ -510,7 +499,7 @@ collision_layer = 4
 collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Main Boundaries/Side Boundary 2"]
-shape = SubResource( 8 )
+shape = SubResource( 7 )
 
 [node name="Stone Boundaries" type="Node" parent="."]
 
@@ -520,7 +509,7 @@ collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Bottom Stones"]
 position = Vector2( -552.043, -203.471 )
-shape = SubResource( 9 )
+shape = SubResource( 8 )
 
 [node name="Bottom Stones 2" type="StaticBody2D" parent="Stone Boundaries"]
 collision_layer = 4
@@ -528,7 +517,7 @@ collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Bottom Stones 2"]
 position = Vector2( 80.0093, -267.974 )
-shape = SubResource( 10 )
+shape = SubResource( 9 )
 
 [node name="Bottom Stones 3" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( 332.649, -332.065 )
@@ -537,7 +526,7 @@ collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Bottom Stones 3"]
 position = Vector2( -0.157684, 0 )
-shape = SubResource( 11 )
+shape = SubResource( 10 )
 
 [node name="Side Stones" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( -1028.5, -386.087 )
@@ -545,7 +534,7 @@ collision_layer = 4
 collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Side Stones"]
-shape = SubResource( 12 )
+shape = SubResource( 11 )
 
 [node name="Side Stones 2" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( -884.524, -682.144 )
@@ -554,7 +543,7 @@ collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Side Stones 2"]
 position = Vector2( 0, -0.804688 )
-shape = SubResource( 13 )
+shape = SubResource( 12 )
 
 [node name="Side Stones 3" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( -332.022, -706.977 )
@@ -562,7 +551,7 @@ collision_layer = 4
 collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Side Stones 3"]
-shape = SubResource( 14 )
+shape = SubResource( 13 )
 
 [node name="Side Stones 4" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( -76.0081, -236.927 )
@@ -570,7 +559,7 @@ collision_layer = 4
 collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Side Stones 4"]
-shape = SubResource( 14 )
+shape = SubResource( 13 )
 
 [node name="Side Stones 5" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( 499.965, -626.925 )
@@ -578,14 +567,14 @@ collision_layer = 4
 collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Side Stones 5"]
-shape = SubResource( 15 )
+shape = SubResource( 14 )
 
 [node name="Side Stones 6" type="StaticBody2D" parent="Stone Boundaries"]
 collision_layer = 4
 collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Side Stones 6"]
-shape = SubResource( 16 )
+shape = SubResource( 15 )
 
 [node name="Side Stones 7" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( 500.031, -405.581 )
@@ -593,7 +582,7 @@ collision_layer = 4
 collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Side Stones 7"]
-shape = SubResource( 17 )
+shape = SubResource( 16 )
 
 [node name="Top Stones" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( -954.184, -562.958 )
@@ -601,7 +590,7 @@ collision_layer = 4
 collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Top Stones"]
-shape = SubResource( 18 )
+shape = SubResource( 17 )
 
 [node name="Top Stones 2" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( -610.656, -738.986 )
@@ -609,7 +598,7 @@ collision_layer = 4
 collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Top Stones 2"]
-shape = SubResource( 19 )
+shape = SubResource( 18 )
 
 [node name="Top Stones 3" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( 112.554, -674.961 )
@@ -617,7 +606,7 @@ collision_layer = 4
 collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Top Stones 3"]
-shape = SubResource( 20 )
+shape = SubResource( 19 )
 [connection signal="timeout" from="ZombieSpawnTimer/RoundStartTimer" to="." method="_on_RoundStartTimer_timeout"]
 [connection signal="timeout" from="ZombieSpawnTimer/SpawnTimer" to="." method="_on_SpawnTimer_timeout"]
 [connection signal="timeout" from="ZombieSpawnTimer/LabelTimer" to="." method="_on_LabelTimer_timeout"]
