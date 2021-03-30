@@ -11,7 +11,6 @@ func _ready():
 #called in bullet script.
 func takeDamage():
 	health -= 5
-	print("Hit")
 	
 	if health <= 0:
 		health = 0

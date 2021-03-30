@@ -8,4 +8,5 @@ func _ready():
 func _on_Bullet_body_entered(body):
 	if body.is_in_group("zombie"):
 		body.takeDamage()
+		print("Hit")
 	queue_free()

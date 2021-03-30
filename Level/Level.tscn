@@ -230,7 +230,6 @@ autostart = true
 
 [node name="SpawnTimer" type="Timer" parent="ZombieSpawnTimer"]
 wait_time = 0.001
-one_shot = true
 
 [node name="LabelTimer" type="Timer" parent="ZombieSpawnTimer"]
 autostart = true
@@ -373,84 +372,80 @@ collision_mask = 15
 position = Vector2( -12.6018, 235.021 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 2
+frame = 1
 playing = true
 
 [node name="AnimatedSprite2" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 15.3293, 235.021 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 2
+frame = 1
 playing = true
 
 [node name="AnimatedSprite3" type="AnimatedSprite" parent="YSort"]
 position = Vector2( -12.6018, 259.77 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 2
+frame = 1
 playing = true
 
 [node name="AnimatedSprite4" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 15.6823, 259.77 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 2
+frame = 1
 playing = true
 
 [node name="AnimatedSprite5" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 254.825, 651.102 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 2
+frame = 1
 playing = true
 
 [node name="AnimatedSprite6" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 282.756, 651.102 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 2
+frame = 1
 playing = true
 
 [node name="AnimatedSprite7" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 254.825, 675.852 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 2
+frame = 1
 playing = true
 
 [node name="AnimatedSprite8" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 283.109, 675.852 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 2
+frame = 1
 playing = true
 
 [node name="AnimatedSprite9" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 451.104, 651.102 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
 playing = true
 
 [node name="AnimatedSprite10" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 479.035, 651.102 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
 playing = true
 
 [node name="AnimatedSprite11" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 451.104, 675.851 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
 playing = true
 
 [node name="AnimatedSprite12" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 479.388, 675.851 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
 playing = true
 
 [node name="Player" parent="YSort" instance=ExtResource( 2 )]
