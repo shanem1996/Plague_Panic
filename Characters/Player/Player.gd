@@ -1,12 +1,17 @@
 extends "res://Characters/CharacterTemplate/CharacterTemplate.gd"
 
 #Player Attributes
-var player_max_health = 24
+var player_max_health = 10
 var player_speed = 300
+
+#Health Bar Signals
+signal max_health
+signal health_updated
 	
 func _ready():
 	setMaxHealth(player_max_health)
 	setCharSpeed(player_speed)
+	emit_signal("max_health", health)
 
 #Bullet
 var bullet = preload("res://Weapons/Bullet/Bullet.tscn")
@@ -40,6 +45,7 @@ func isPlayerDamaged(collision):
 		if "Zombie1" in collision.collider.name:
 			takeDamageCooldown = true
 			health -= 1
+			emit_signal("health_updated",health)
 			print(health)
 			yield(get_tree().create_timer(0.8), "timeout")
 			takeDamageCooldown = false

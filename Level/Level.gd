@@ -3,10 +3,11 @@ extends Node
 const ZOMBIE = preload("res://Characters/Enemies/Zombie_1/Zombie1.tscn")
 
 func _ready():
-	newRound()
+	var healthBar = $"UI/healthBar"
 	var roundLabel = $"UI/roundLabel"
 	$YSort/Player.position = $PlayerStartPos.position
 	roundLabel.visible = false
+	newRound()
 	
 func _process(delta):
 	var roundLabel = $"UI/roundLabel"
@@ -41,3 +42,7 @@ func _on_LabelTimer_timeout():
 func newRound():
 	Global.round_timer = 3
 	
+
+func _on_Player_max_health(healthBar):
+	var current_health = $"YSort/Player".health
+	healthBar.set_value(current_health)

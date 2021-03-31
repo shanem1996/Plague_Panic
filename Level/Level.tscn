@@ -1,4 +1,4 @@
-[gd_scene load_steps=36 format=2]
+[gd_scene load_steps=38 format=2]
 
 [ext_resource path="res://Level/Level.gd" type="Script" id=1]
 [ext_resource path="res://Characters/Player/Player.tscn" type="PackedScene" id=2]
@@ -16,6 +16,12 @@
 [ext_resource path="res://Level/Building2.tscn" type="PackedScene" id=14]
 [ext_resource path="res://Assets/Fonts/game_font_48.tres" type="DynamicFont" id=15]
 [ext_resource path="res://Level/ZombieSpawnBuilding.tscn" type="PackedScene" id=16]
+
+[sub_resource type="StyleBoxFlat" id=20]
+bg_color = Color( 0.87451, 0.192157, 0.192157, 1 )
+
+[sub_resource type="StyleBoxFlat" id=21]
+bg_color = Color( 0.0862745, 0.0784314, 0.0784314, 1 )
 
 [sub_resource type="TileSet" id=1]
 0/name = "mainlevbuild.png 0"
@@ -230,6 +236,21 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="healthBar" type="ProgressBar" parent="UI"]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = -40.0
+margin_right = 240.0
+margin_bottom = -16.0
+custom_styles/fg = SubResource( 20 )
+custom_styles/bg = SubResource( 21 )
+value = 24.0
+percent_visible = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="ZombieSpawnTimer" type="Node" parent="."]
 
 [node name="RoundStartTimer" type="Timer" parent="ZombieSpawnTimer"]
@@ -326,6 +347,7 @@ collision_layer = 4
 collision_mask = 15
 
 [node name="StaticBody2D" parent="YSort/Building2" instance=ExtResource( 14 )]
+position = Vector2( -0.218536, -1.80078 )
 
 [node name="Building2_2" parent="YSort" instance=ExtResource( 14 )]
 position = Vector2( 515.019, 442.06 )
@@ -381,84 +403,88 @@ collision_mask = 15
 position = Vector2( -12.6018, 235.021 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 3
 playing = true
 
 [node name="AnimatedSprite2" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 15.3293, 235.021 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 3
 playing = true
 
 [node name="AnimatedSprite3" type="AnimatedSprite" parent="YSort"]
 position = Vector2( -12.6018, 259.77 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 3
 playing = true
 
 [node name="AnimatedSprite4" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 15.6823, 259.77 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 3
 playing = true
 
 [node name="AnimatedSprite5" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 254.825, 651.102 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 3
 playing = true
 
 [node name="AnimatedSprite6" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 282.756, 651.102 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 3
 playing = true
 
 [node name="AnimatedSprite7" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 254.825, 675.852 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 3
 playing = true
 
 [node name="AnimatedSprite8" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 283.109, 675.852 )
 frames = SubResource( 5 )
 animation = "Torch"
-frame = 1
+frame = 3
 playing = true
 
 [node name="AnimatedSprite9" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 451.104, 651.102 )
 frames = SubResource( 5 )
 animation = "Torch"
+frame = 2
 playing = true
 
 [node name="AnimatedSprite10" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 479.035, 651.102 )
 frames = SubResource( 5 )
 animation = "Torch"
+frame = 2
 playing = true
 
 [node name="AnimatedSprite11" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 451.104, 675.851 )
 frames = SubResource( 5 )
 animation = "Torch"
+frame = 2
 playing = true
 
 [node name="AnimatedSprite12" type="AnimatedSprite" parent="YSort"]
 position = Vector2( 479.388, 675.851 )
 frames = SubResource( 5 )
 animation = "Torch"
+frame = 2
 playing = true
 
 [node name="Player" parent="YSort" instance=ExtResource( 2 )]
-position = Vector2( 773.255, -90.6247 )
+position = Vector2( 507.92, 303.011 )
 
 [node name="Camera2D" type="Camera2D" parent="YSort/Player"]
 current = true
@@ -606,3 +632,5 @@ shape = SubResource( 19 )
 [connection signal="timeout" from="ZombieSpawnTimer/RoundStartTimer" to="." method="_on_RoundStartTimer_timeout"]
 [connection signal="timeout" from="ZombieSpawnTimer/SpawnTimer" to="." method="_on_SpawnTimer_timeout"]
 [connection signal="timeout" from="ZombieSpawnTimer/LabelTimer" to="." method="_on_LabelTimer_timeout"]
+[connection signal="health_updated" from="YSort/Player" to="UI/healthBar" method="set_value"]
+[connection signal="max_health" from="YSort/Player" to="UI/healthBar" method="set_max"]
