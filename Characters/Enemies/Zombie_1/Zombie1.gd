@@ -1,12 +1,14 @@
 extends "res://Characters/CharacterTemplate/CharacterTemplate.gd"
 
 #Attributes
-var zombieSpeed = 100
+var zombie_Speed = 100
+var zombie_Max_Health = 10
 var dead = false
 
 #_ready runs once when the scene loads
 func _ready():
-	speed = zombieSpeed
+	setMaxHealth(zombie_Max_Health)
+	setCharSpeed(zombie_Speed)
 
 #called in bullet script.
 func takeDamage():
