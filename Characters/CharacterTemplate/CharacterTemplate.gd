@@ -1,9 +1,14 @@
 extends KinematicBody2D
 
+var health
+var max_health = 10
 var speed = 240
-const MAX_SPEED = 100
-const FRICTION = 0.1
-var health = 10
+
+func setMaxHealth(max_health):
+	health = clamp(max_health, 0, max_health)
+	
+func setCharSpeed(new_Speed):
+	speed = new_Speed
 
 #character animation used for most characters based on velocity.
 func character_animation(velocity):

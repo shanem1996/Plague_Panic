@@ -1,5 +1,13 @@
 extends "res://Characters/CharacterTemplate/CharacterTemplate.gd"
 
+#Player Attributes
+var player_max_health = 24
+var player_speed = 300
+	
+func _ready():
+	setMaxHealth(player_max_health)
+	setCharSpeed(player_speed)
+
 #Bullet
 var bullet = preload("res://Weapons/Bullet/Bullet.tscn")
 var cooldown = false
@@ -37,10 +45,8 @@ func isPlayerDamaged(collision):
 			takeDamageCooldown = false
 	
 	if health <= 0:
-		health = 0
 		dead = true
 	
-
 #_process fucntion runs for every instance of the game loop
 func _process(delta):
 	#Player movement
