@@ -20,6 +20,7 @@ func takeDamage():
 
 func isDead(dead):
 	if dead == true:
+		Global.zombiesDefeated += 1
 		queue_free()
 
 func _process(delta):
