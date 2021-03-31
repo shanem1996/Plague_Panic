@@ -251,15 +251,10 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="ZombieSpawnTimer" type="Node" parent="."]
-
-[node name="SpawnTimer" type="Timer" parent="ZombieSpawnTimer"]
-wait_time = 0.001
-
 [node name="ZombieStartPos" type="Node" parent="."]
 
 [node name="StartPos1" type="Position2D" parent="ZombieStartPos"]
-position = Vector2( -298.755, 1030.34 )
+position = Vector2( 910, 320 )
 
 [node name="StartPos2" type="Position2D" parent="ZombieStartPos"]
 position = Vector2( 725.761, 1273 )
@@ -617,6 +612,5 @@ collision_mask = 15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Top Stones 3"]
 shape = SubResource( 21 )
-[connection signal="timeout" from="ZombieSpawnTimer/SpawnTimer" to="." method="_on_SpawnTimer_timeout"]
 [connection signal="health_updated" from="YSort/Player" to="UI/healthBar" method="set_value"]
 [connection signal="max_health" from="YSort/Player" to="UI/healthBar" method="set_max"]
