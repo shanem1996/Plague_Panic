@@ -23,7 +23,7 @@ func isDead(dead):
 		Global.zombiesDefeated += 1
 		queue_free()
 
-func _process(delta):
+func _physics_process(delta):
 	var velocity = Vector2.ZERO
 	
 	#Sets zombie's velocity using direction_to method to player position
