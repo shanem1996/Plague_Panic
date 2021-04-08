@@ -26,7 +26,7 @@ var dead = false
 #isDead function to check if the player has died
 func isDead(dead):
 	if dead == true:
-		get_tree().change_scene("res://Main Menu/MainMenu.tscn") #If the player is dead the main menu scene is triggered
+		get_tree().change_scene("res://Game Over/GameOver.tscn") #If the player is dead the main menu scene is triggered
 
 func Fire():
 	if Input.is_action_pressed("player_attack") and cooldown == false:

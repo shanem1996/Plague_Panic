@@ -7,5 +7,5 @@
 script = ExtResource( 2 )
 
 [node name="Label" parent="." index="0"]
-text = "Start game"
+text = "Start Game"
 [connection signal="pressed" from="." to="." method="_on_StartGameButton_pressed"]
