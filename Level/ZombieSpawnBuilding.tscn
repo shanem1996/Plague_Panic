@@ -9,7 +9,7 @@ extents = Vector2( 35.4897, 8.35653 )
 extents = Vector2( 32.5401, 3.2832 )
 
 [sub_resource type="RectangleShape2D" id=3]
-extents = Vector2( 10.123, 18.3852 )
+extents = Vector2( 10.123, 12.9373 )
 
 [node name="ZombieSpawnBuilding" type="StaticBody2D"]
 
@@ -26,9 +26,9 @@ position = Vector2( -4.01147, -10.7366 )
 shape = SubResource( 2 )
 
 [node name="CollisionShape2D_3" type="CollisionShape2D" parent="."]
-position = Vector2( -29.3781, 24.8947 )
+position = Vector2( -29.3781, 11.9805 )
 shape = SubResource( 3 )
 
 [node name="CollisionShape2D_4" type="CollisionShape2D" parent="."]
-position = Vector2( 21.4731, 24.8947 )
+position = Vector2( 21.4731, 11.9805 )
 shape = SubResource( 3 )
