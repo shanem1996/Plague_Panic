@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/PlayerDead.wav-03ac098e4d2fa5d99f1ab9a716fe9a8f.sample"
+
+[deps]
+
+source_file="res://Assets/Sounds/PlayerDead.wav"
+dest_files=[ "res://.import/PlayerDead.wav-03ac098e4d2fa5d99f1ab9a716fe9a8f.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

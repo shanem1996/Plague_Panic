@@ -9,6 +9,7 @@ func _ready():
 	$YSort/Player.position = $PlayerStartPos.position
 	Global.roundLabel.visible = false
 	newRound()
+	get_node("GameMusic").play()
 	
 func _process(delta):
 	var roundLabel = $"UI/roundLabel"

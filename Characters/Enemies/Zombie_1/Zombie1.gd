@@ -12,6 +12,7 @@ func _ready():
 
 #called in bullet script.
 func takeDamage():
+	get_node("ZombieHurt").play()
 	health -= 5
 	
 	if health <= 0:

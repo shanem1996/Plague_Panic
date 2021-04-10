@@ -1,4 +1,4 @@
-[gd_scene load_steps=72 format=2]
+[gd_scene load_steps=73 format=2]
 
 [ext_resource path="res://Level/Level.gd" type="Script" id=1]
 [ext_resource path="res://Characters/Player/Player.tscn" type="PackedScene" id=2]
@@ -28,6 +28,7 @@
 [ext_resource path="res://Assets/Main/candleB_04.png" type="Texture" id=26]
 [ext_resource path="res://Level/StoneBuilding1.tscn" type="PackedScene" id=27]
 [ext_resource path="res://Level/StoneBuilding2.tscn" type="PackedScene" id=28]
+[ext_resource path="res://Assets/Sounds/Music.wav" type="AudioStream" id=29]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.87451, 0.192157, 0.192157, 1 )
@@ -1067,5 +1068,9 @@ position = Vector2( 875.975, -584.003 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Town Wall Boundaries/TopCollision13"]
 shape = SubResource( 43 )
+
+[node name="GameMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 29 )
+volume_db = -12.117
 [connection signal="health_updated" from="YSort/Player" to="UI/healthBar" method="set_value"]
 [connection signal="max_health" from="YSort/Player" to="UI/healthBar" method="set_max"]

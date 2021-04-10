@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Assets/Fonts/game_font_48.tres" type="DynamicFont" id=1]
 [ext_resource path="res://Assets/Main Menu/title.png" type="Texture" id=2]
 [ext_resource path="res://Custscene/OpeningCutscene.gd" type="Script" id=3]
+[ext_resource path="res://Assets/Sounds/CutsceneMusic.wav" type="AudioStream" id=4]
 
 [sub_resource type="Animation" id=1]
 resource_name = "Cutscene"
@@ -55,6 +56,30 @@ tracks/3/keys = {
 "update": 0,
 "values": [ Vector2( 1.2, 1.2 ), Vector2( 1.4, 1.4 ) ]
 }
+tracks/4/type = "value"
+tracks/4/path = NodePath("Music:playing")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Music:volume_db")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 2.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ -80.0, 0.0 ]
+}
 
 [node name="Cutscene" type="Control"]
 script = ExtResource( 3 )
@@ -66,10 +91,10 @@ __meta__ = {
 anims/Cutscene = SubResource( 1 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
-margin_left = -181.439
-margin_top = -95.7465
-margin_right = 1238.56
-margin_bottom = 722.254
+margin_left = -209.471
+margin_top = -113.099
+margin_right = 1210.53
+margin_bottom = 704.901
 color = Color( 0, 0, 0, 1 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -77,11 +102,11 @@ __meta__ = {
 
 [node name="Label" type="Label" parent="."]
 margin_left = 193.652
-margin_top = 50.0
+margin_top = 469.255
 margin_right = 839.652
-margin_bottom = 522.966
+margin_bottom = 942.211
 custom_fonts/font = ExtResource( 1 )
-custom_colors/font_color = Color( 1, 1, 1, 0.25 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
 text = "The year is 2034
 
 A  deadly  virus  has  attacked
@@ -102,4 +127,7 @@ visible = false
 position = Vector2( 500.565, 316.357 )
 scale = Vector2( 1.4, 1.4 )
 texture = ExtResource( 2 )
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]

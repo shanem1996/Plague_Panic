@@ -23,13 +23,17 @@ var fire_rate = 0.4
 #Boolean for whether the player is dead or not
 var dead = false
 
+
+
 #isDead function to check if the player has died
 func isDead(dead):
 	if dead == true:
+		get_node("DeadSound").play()
 		get_tree().change_scene("res://Game Over/GameOver.tscn") #If the player is dead the main menu scene is triggered
 
 func Fire():
 	if Input.is_action_pressed("player_attack") and cooldown == false:
+		get_node("ThrowSound").play()
 		cooldown = true
 		get_node("Axis").rotation = get_angle_to(get_global_mouse_position())
 		var bullet_instance = bullet.instance()
@@ -38,11 +42,13 @@ func Fire():
 		get_tree().get_root().add_child(bullet_instance)
 		yield(get_tree().create_timer(fire_rate), "timeout")
 		cooldown = false
+		
 
 #Player health
 func isPlayerDamaged(collision):
 	if collision and takeDamageCooldown == false:
 		if "Zombie1" in collision.collider.name:
+			get_node("HurtSound").play()
 			takeDamageCooldown = true
 			health -= 1
 			emit_signal("health_updated",health)
@@ -51,6 +57,7 @@ func isPlayerDamaged(collision):
 			takeDamageCooldown = false
 	
 	if health <= 0:
+		
 		dead = true
 	
 #_process fucntion runs for every instance of the game loop
@@ -87,3 +94,5 @@ func _process(delta):
 	
 	#Shooting.
 	Fire()
+
+
