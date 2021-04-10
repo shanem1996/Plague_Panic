@@ -567,167 +567,171 @@ scale = Vector2( 0.559998, 0.559998 )
 position = Vector2( -12.6018, 235.021 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite2" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( 15.3293, 235.021 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite3" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -12.6018, 259.77 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite4" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( 15.6823, 259.77 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite5" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( 254.825, 651.102 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite6" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( 282.756, 651.102 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite7" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( 254.825, 675.852 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite8" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( 283.109, 675.852 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite9" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( 451.104, 651.102 )
 frames = SubResource( 7 )
 animation = "Torch"
+frame = 1
 playing = true
 
 [node name="AnimatedSprite10" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( 479.035, 651.102 )
 frames = SubResource( 7 )
 animation = "Torch"
+frame = 1
 playing = true
 
 [node name="AnimatedSprite11" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( 451.104, 675.851 )
 frames = SubResource( 7 )
 animation = "Torch"
+frame = 1
 playing = true
 
 [node name="AnimatedSprite12" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( 479.388, 675.851 )
 frames = SubResource( 7 )
 animation = "Torch"
+frame = 1
 playing = true
 
 [node name="AnimatedSprite13" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -78.186, 470.664 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite14" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -309.314, 472.847 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite15" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -281.383, 472.847 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite16" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -309.314, 497.596 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite17" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -281.03, 497.596 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimatedSprite18" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -287.96, 651.102 )
 frames = SubResource( 7 )
 animation = "Torch"
+frame = 1
 playing = true
 
 [node name="AnimatedSprite19" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -260.029, 651.102 )
 frames = SubResource( 7 )
 animation = "Torch"
+frame = 1
 playing = true
 
 [node name="AnimatedSprite20" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -287.96, 675.852 )
 frames = SubResource( 7 )
 animation = "Torch"
+frame = 1
 playing = true
 
 [node name="AnimatedSprite21" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -259.676, 675.852 )
 frames = SubResource( 7 )
 animation = "Torch"
+frame = 1
 playing = true
 
 [node name="AnimatedSprite22" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -91.6806, 651.102 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 3
 playing = true
 
 [node name="AnimatedSprite23" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -63.7496, 651.102 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 3
 playing = true
 
 [node name="AnimatedSprite24" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -91.6806, 675.851 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 3
 playing = true
 
 [node name="AnimatedSprite25" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -63.3966, 675.851 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 3
 playing = true
 
 [node name="Node" type="Node" parent="YSort"]
@@ -763,6 +767,10 @@ position = Vector2( 507.92, 303.011 )
 
 [node name="Camera2D" type="Camera2D" parent="YSort/Player"]
 current = true
+limit_left = -1090
+limit_top = -770
+limit_right = 1250
+limit_bottom = 1540
 
 [node name="Main Boundaries" type="Node" parent="."]
 
