@@ -12,6 +12,8 @@ extents = Vector2( 94.8675, 12.1403 )
 extents = Vector2( 89.8675, 11.6403 )
 
 [node name="StaticBody2D" type="StaticBody2D"]
+collision_layer = 4
+collision_mask = 15
 
 [node name="Building3" type="Sprite" parent="."]
 scale = Vector2( 0.4, 0.4 )
