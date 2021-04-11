@@ -1,4 +1,4 @@
-[gd_scene load_steps=73 format=2]
+[gd_scene load_steps=67 format=2]
 
 [ext_resource path="res://Level/Level.gd" type="Script" id=1]
 [ext_resource path="res://Characters/Player/Player.tscn" type="PackedScene" id=2]
@@ -218,9 +218,6 @@ extents = Vector2( 10, 1249.68 )
 [sub_resource type="RectangleShape2D" id=12]
 extents = Vector2( 481.052, 3.96681 )
 
-[sub_resource type="RectangleShape2D" id=13]
-extents = Vector2( 79.9739, 3.97937 )
-
 [sub_resource type="RectangleShape2D" id=14]
 extents = Vector2( 172.43, 4.03094 )
 
@@ -286,21 +283,6 @@ extents = Vector2( 10, 685.126 )
 [sub_resource type="RectangleShape2D" id=35]
 extents = Vector2( 49.2838, 7.93779 )
 
-[sub_resource type="RectangleShape2D" id=36]
-extents = Vector2( 24.4682, 7.95001 )
-
-[sub_resource type="RectangleShape2D" id=37]
-extents = Vector2( 16.5451, 7.98555 )
-
-[sub_resource type="RectangleShape2D" id=38]
-extents = Vector2( 40.5117, 7.95657 )
-
-[sub_resource type="RectangleShape2D" id=39]
-extents = Vector2( 48.5206, 8.05858 )
-
-[sub_resource type="RectangleShape2D" id=40]
-extents = Vector2( 72.4545, 8.03694 )
-
 [sub_resource type="RectangleShape2D" id=41]
 extents = Vector2( 227.439, 7.94247 )
 
@@ -343,28 +325,28 @@ __meta__ = {
 [node name="ZombieStartPos" type="Node" parent="."]
 
 [node name="StartPos1" type="Position2D" parent="ZombieStartPos"]
-position = Vector2( 910, 320 )
+position = Vector2( 910, 322 )
 
 [node name="StartPos2" type="Position2D" parent="ZombieStartPos"]
 position = Vector2( 725.761, 1273 )
 
 [node name="StartPos3" type="Position2D" parent="ZombieStartPos"]
-position = Vector2( 359.82, -26.1784 )
+position = Vector2( 359.82, 10.8211 )
 
 [node name="StartPos4" type="Position2D" parent="ZombieStartPos"]
-position = Vector2( 253.65, -536.345 )
+position = Vector2( 253.65, -480.846 )
 
 [node name="StartPos5" type="Position2D" parent="ZombieStartPos"]
-position = Vector2( -369.326, 27.8068 )
+position = Vector2( -369.326, 76.5788 )
 
 [node name="StartPos6" type="Position2D" parent="ZombieStartPos"]
-position = Vector2( -209.635, -376.115 )
+position = Vector2( -204.59, -327.343 )
 
 [node name="StartPos7" type="Position2D" parent="ZombieStartPos"]
-position = Vector2( -657.529, -616.196 )
+position = Vector2( -657.529, -560.697 )
 
 [node name="StartPos8" type="Position2D" parent="ZombieStartPos"]
-position = Vector2( -864.869, -310.525 )
+position = Vector2( -864.869, -271.844 )
 
 [node name="StartPos9" type="Position2D" parent="ZombieStartPos"]
 position = Vector2( -876.033, 55.7652 )
@@ -568,171 +550,162 @@ scale = Vector2( 0.559998, 0.559998 )
 position = Vector2( -12.6018, 235.021 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 2
 playing = true
 
 [node name="AnimatedSprite2" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( 15.3293, 235.021 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 2
 playing = true
 
 [node name="AnimatedSprite3" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -12.6018, 259.77 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 2
 playing = true
 
 [node name="AnimatedSprite4" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( 15.6823, 259.77 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 2
 playing = true
 
 [node name="AnimatedSprite5" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( 254.825, 651.102 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 2
 playing = true
 
 [node name="AnimatedSprite6" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( 282.756, 651.102 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 2
 playing = true
 
 [node name="AnimatedSprite7" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( 254.825, 675.852 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 2
 playing = true
 
 [node name="AnimatedSprite8" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( 283.109, 675.852 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 2
 playing = true
 
 [node name="AnimatedSprite9" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( 451.104, 651.102 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 3
 playing = true
 
 [node name="AnimatedSprite10" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( 479.035, 651.102 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 3
 playing = true
 
 [node name="AnimatedSprite11" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( 451.104, 675.851 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 3
 playing = true
 
 [node name="AnimatedSprite12" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( 479.388, 675.851 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 3
 playing = true
 
 [node name="AnimatedSprite13" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -78.186, 470.664 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 2
 playing = true
 
 [node name="AnimatedSprite14" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -309.314, 472.847 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 2
 playing = true
 
 [node name="AnimatedSprite15" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -281.383, 472.847 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 2
 playing = true
 
 [node name="AnimatedSprite16" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -309.314, 497.596 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 2
 playing = true
 
 [node name="AnimatedSprite17" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -281.03, 497.596 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 2
 playing = true
 
 [node name="AnimatedSprite18" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -287.96, 651.102 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 3
 playing = true
 
 [node name="AnimatedSprite19" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -260.029, 651.102 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 3
 playing = true
 
 [node name="AnimatedSprite20" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -287.96, 675.852 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 3
 playing = true
 
 [node name="AnimatedSprite21" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -259.676, 675.852 )
 frames = SubResource( 7 )
 animation = "Torch"
-frame = 1
+frame = 3
 playing = true
 
 [node name="AnimatedSprite22" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -91.6806, 651.102 )
 frames = SubResource( 7 )
 animation = "Torch"
+frame = 2
 playing = true
 
 [node name="AnimatedSprite23" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -63.7496, 651.102 )
 frames = SubResource( 7 )
 animation = "Torch"
+frame = 2
 playing = true
 
 [node name="AnimatedSprite24" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -91.6806, 675.851 )
 frames = SubResource( 7 )
 animation = "Torch"
+frame = 2
 playing = true
 
 [node name="AnimatedSprite25" type="AnimatedSprite" parent="YSort/Torches"]
 position = Vector2( -63.3966, 675.851 )
 frames = SubResource( 7 )
 animation = "Torch"
+frame = 2
 playing = true
 
 [node name="Node" type="Node" parent="YSort"]
@@ -817,14 +790,6 @@ collision_mask = 15
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Bottom Stones"]
 position = Vector2( -552.043, -205.365 )
 shape = SubResource( 12 )
-
-[node name="Bottom Stones 2" type="StaticBody2D" parent="Stone Boundaries"]
-collision_layer = 4
-collision_mask = 15
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Stone Boundaries/Bottom Stones 2"]
-position = Vector2( 80.0093, -267.974 )
-shape = SubResource( 13 )
 
 [node name="Bottom Stones 3" type="StaticBody2D" parent="Stone Boundaries"]
 position = Vector2( 332.649, -332.065 )
@@ -996,60 +961,6 @@ position = Vector2( -658.197, -152.05 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Town Wall Boundaries/TopCollision1"]
 shape = SubResource( 35 )
-
-[node name="TopCollision2" type="StaticBody2D" parent="Town Wall Boundaries"]
-position = Vector2( -536.478, -151.947 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Town Wall Boundaries/TopCollision2"]
-shape = SubResource( 36 )
-
-[node name="TopCollision3" type="StaticBody2D" parent="Town Wall Boundaries"]
-position = Vector2( -464.524, -152.095 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Town Wall Boundaries/TopCollision3"]
-shape = SubResource( 37 )
-
-[node name="TopCollision4" type="StaticBody2D" parent="Town Wall Boundaries"]
-position = Vector2( 495.444, -152.095 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Town Wall Boundaries/TopCollision4"]
-shape = SubResource( 37 )
-
-[node name="TopCollision5" type="StaticBody2D" parent="Town Wall Boundaries"]
-position = Vector2( 7.42351, -151.835 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Town Wall Boundaries/TopCollision5"]
-shape = SubResource( 36 )
-
-[node name="TopCollision6" type="StaticBody2D" parent="Town Wall Boundaries"]
-position = Vector2( -96.4803, -152.095 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Town Wall Boundaries/TopCollision6"]
-shape = SubResource( 37 )
-
-[node name="TopCollision7" type="StaticBody2D" parent="Town Wall Boundaries"]
-position = Vector2( -360.515, -152.023 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Town Wall Boundaries/TopCollision7"]
-shape = SubResource( 38 )
-
-[node name="TopCollision8" type="StaticBody2D" parent="Town Wall Boundaries"]
-position = Vector2( 167.487, -152.023 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Town Wall Boundaries/TopCollision8"]
-shape = SubResource( 38 )
-
-[node name="TopCollision9" type="StaticBody2D" parent="Town Wall Boundaries"]
-position = Vector2( -224.513, -152.044 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Town Wall Boundaries/TopCollision9"]
-shape = SubResource( 39 )
-
-[node name="TopCollision10" type="StaticBody2D" parent="Town Wall Boundaries"]
-position = Vector2( 343.471, -152.033 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Town Wall Boundaries/TopCollision10"]
-shape = SubResource( 40 )
 
 [node name="TopCollision11" type="StaticBody2D" parent="Town Wall Boundaries"]
 position = Vector2( 818.324, -151.917 )

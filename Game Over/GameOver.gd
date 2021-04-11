@@ -1,5 +1,8 @@
 extends Control
 
+func _ready():
+	get_node("DeathSound")
+
 func _process(delta):
 	gameOverRound()
 
