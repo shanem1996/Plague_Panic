@@ -1,7 +1,9 @@
 extends Control
 
 func _ready():
-	get_node("DeathSound")
+	get_node("DeathSound").play()
+	get_node("AnimationPlayer").play("GameOver")
+	
 
 func _process(delta):
 	gameOverRound()

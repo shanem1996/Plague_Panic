@@ -75,7 +75,7 @@ tracks/5/loop_wrap = true
 tracks/5/imported = false
 tracks/5/enabled = true
 tracks/5/keys = {
-"times": PoolRealArray( 0, 2.4 ),
+"times": PoolRealArray( 0, 5.3 ),
 "transitions": PoolRealArray( 1, 1 ),
 "update": 0,
 "values": [ -80.0, 0.0 ]
@@ -102,11 +102,11 @@ __meta__ = {
 
 [node name="Label" type="Label" parent="."]
 margin_left = 193.652
-margin_top = 469.255
+margin_top = 50.0
 margin_right = 839.652
-margin_bottom = 942.211
+margin_bottom = 522.956
 custom_fonts/font = ExtResource( 1 )
-custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color = Color( 1, 1, 1, 0 )
 text = "The year is 2034
 
 A  deadly  virus  has  attacked
@@ -123,9 +123,8 @@ __meta__ = {
 }
 
 [node name="Logo" type="Sprite" parent="."]
-visible = false
-position = Vector2( 500.565, 316.357 )
-scale = Vector2( 1.4, 1.4 )
+position = Vector2( 516.583, 313.687 )
+scale = Vector2( 1.23509, 1.23509 )
 texture = ExtResource( 2 )
 
 [node name="Music" type="AudioStreamPlayer" parent="."]

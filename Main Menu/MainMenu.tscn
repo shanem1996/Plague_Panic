@@ -38,6 +38,16 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = -53.0
+margin_top = -28.0
+margin_right = 1080.0
+margin_bottom = 618.0
+color = Color( 0.278431, 0.0431373, 0.0862745, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="Menu" type="VBoxContainer" parent="."]
 margin_left = 120.0
 margin_top = 80.0
@@ -97,7 +107,6 @@ position = Vector2( 191.728, 179.203 )
 scale = Vector2( 13.3549, 13.3549 )
 frames = SubResource( 5 )
 animation = "Walk"
-frame = 2
 playing = true
 
 [node name="Music" parent="." instance=ExtResource( 6 )]
